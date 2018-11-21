@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="utf-8" />
+    <title>index55</title>
+    <script language="javascript">
+        var firstn = window.prompt("Введите Ваше имя: ", "Ваше имя")
+        function welcome() {
+            var appname = navigator.appName;
+            var appver = navigator.appVersion;
+            window.alert("Привет, " + firstn + "! Вы используете " + appname + ". Версия " + appver + ". Спасибо за Ваш визит!");
+        }
+        function writename() {
+            document.write(firstn + ".");
+        }
+    </script>
+</head>
+<body onload="welcome()">
+    Добро пожаловать,
+    <script lang="javascript">
+        writename();
+    </script>
+</body>
+</html>
